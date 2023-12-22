@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.container{
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 2px;
+}
+.contrls{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+button#blk{
+    background-color: black;
+    color: aliceblue;
+    
+}
+button#rdm{
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,rgb(87, 20, 87));
+    
+}
+button#reset{
+background: blue;
+color: rgb(225, 225, 241);
+}
+button#eraser{
+    box-shadow: 1px 1px 10px,
+               -1px 1px 10px,
+               1px -1px 10px;
+}
